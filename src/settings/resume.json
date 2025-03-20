@@ -1,0 +1,38 @@
+{
+    "basics": {
+        "firstname": "Gabriel",
+        "name": "Gabriel Augusto",
+        "job": "Frontend developer",
+        "location": {
+            "city": "Belo Horizonte",
+            "country": "Brasil",
+            "region": "Minas Gerais"
+        },
+        "profiles": [
+            {
+                "network": "Google",
+                "username": "gabriellggomes@gmail.com",
+                "url": "https://mail.google.com/mail/?view=cm&fs=1&to=gabriellggomes@gmail.com&su=Assunto&body=Mensagem%20aqui",
+                "x_icon": "fab fa-google"
+            },
+            {
+                "network": "LinkedIn",
+                "username": "Gabriel Augusto",
+                "url": "https://www.linkedin.com/in/gabriel-augusto-705200151/",
+                "x_icon": "fab fa-linkedin-in"
+            },
+            {
+                "network": "GitHub",
+                "username": "gabrielazaroni",
+                "url": "https://github.com/gabriellazaroni",
+                "x_icon": "fab fa-github"
+            },
+            {
+                "network": "Instagram",
+                "username": "gabrielauggusto",
+                "url": "https://www.instagram.com/gabrielauggusto/",
+                "x_icon": "fab fa-instagram"
+            }
+        ]
+    }
+}
