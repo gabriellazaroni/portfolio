@@ -23,11 +23,11 @@ export const LightTheme = responsiveFontSizes(
       fontSize: 16,
       htmlFontSize: 16,
       h2: {
-        fontWeight: 500,
+        fontWeight: 100,
       },
       h5: {
-        fontWeight: 500,
-        fontFamily: 'Roboto Mono, monospace',
+        fontWeight: 200,
+        fontFamily: 'Roboto, monospace',
       },
       body1: {
         fontWeight: 500,
@@ -114,11 +114,11 @@ export const DarkTheme = responsiveFontSizes(
       fontSize: 16,
       htmlFontSize: 16,
       h2: {
-        fontWeight: 500,
+        fontWeight: 100,
       },
       h5: {
-        fontWeight: 500,
-        fontFamily: 'Roboto Mono, monospace',
+        fontWeight: 200,
+        fontFamily: 'Roboto, monospace',
       },
       body1: {
         fontWeight: 500,
