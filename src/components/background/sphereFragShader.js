@@ -38,8 +38,8 @@ varying float noise;
 void main() {
   #include <clipping_planes_fragment>
 
-  vec3 color = mix(vec3(0.0), vec3(1.0), step(0.8, noise)); // Só ilumina quando noise > 0.8
-  vec3 finalColors = vec3(color.b * 1.5, color.r, color.r);
+  vec3 color = mix(vec3(1.0), vec3(0.0), step(0.8, noise));
+  vec3 finalColors = vec3(color.r); 
   vec4 diffuseColor = vec4(cos(finalColors * noise * 3.0), 1.0);
   ReflectedLight reflectedLight = ReflectedLight(vec3(0.0), vec3(0.0), vec3(0.0), vec3(0.0));
   vec3 totalEmissiveRadiance = emissive;
